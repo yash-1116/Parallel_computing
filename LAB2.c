@@ -1,5 +1,5 @@
 /*openmp program that divides the iterations into chunks containing 2 iterations, respectively. its input should be
-number of iterations and its output should be which iterations of parallelized for loop are executed by which thread*/
+number of iterations and its output should be which iterations of parallelized for loop are being executed by which thread*/
 #include<stdio.h>
 #include<omp.h>
 int main()
